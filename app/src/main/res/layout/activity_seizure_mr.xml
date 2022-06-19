@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.SeizureMR"
+    android:background="@color/white"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/name"
+            android:textStyle="bold"
+            android:textColor="#8946A6"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/editshape"
+            android:textColor="@color/text"
+            android:textColorHint="#AE000000"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/birthDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/BirthDate"
+            android:textStyle="bold"
+            android:textColor="#8946A6"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/et_birthdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/editshape"
+            android:textColor="@color/text"
+            android:textColorHint="#AE000000"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:text="Symptoms of signals"
+                android:textSize="30sp" />
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temporary" />
+            <EditText
+                android:id="@+id/et_7"
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/editshape"
+                android:hint="@string/enter_yes_or_no"
+                android:padding="10dp"
+                android:textColor="@color/text"
+                android:textColorHint="#AE000000"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/et_fname" />
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/staring"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/et_8"
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/editshape"
+                android:hint="@string/enter_yes_or_no"
+                android:padding="10dp"
+                android:textColor="@color/text"
+                android:textColorHint="#AE000000"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/et_fname" />
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stiff"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/et_9"
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/editshape"
+                android:hint="@string/enter_yes_or_no"
+                android:padding="10dp"
+                android:textColor="@color/text"
+                android:textColorHint="#AE000000"
+                android:textSize="18sp"
+                />
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/uncontrollable" />
+            <EditText
+                android:id="@+id/et_10"
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/editshape"
+                android:hint="@string/enter_yes_or_no"
+                android:padding="10dp"
+                android:textColor="@color/text"
+                android:textColorHint="#AE000000"
+                android:textSize="18sp"
+                />
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/unconsciousness" />
+            <EditText
+                android:id="@+id/et_11"
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/editshape"
+                android:hint="@string/enter_yes_or_no"
+                android:padding="10dp"
+                android:textColor="@color/text"
+                android:textColorHint="#AE000000"
+                android:textSize="18sp"
+                />
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/psychological" />
+            <EditText
+                android:id="@+id/et_12"
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/editshape"
+                android:hint="@string/enter_yes_or_no"
+                android:padding="10dp"
+                android:textColor="@color/text"
+                android:textColorHint="#AE000000"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

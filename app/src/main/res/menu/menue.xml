@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+
+    <item android:id="@+id/profile"
+    android:icon="@drawable/profile"
+    android:title="@string/my_profile"
+    />
+
+    <item android:id="@+id/seizureHistory"
+        android:icon="@drawable/history"
+        android:title="@string/seizure_history"
+        />
+
+    <item android:id="@+id/medicalRecord"
+        android:icon="@drawable/medicalrecord"
+        android:title="@string/medical_record"
+        />
+
+    <item android:id="@+id/symptoms"
+        android:icon="@drawable/symptoms"
+        android:title="@string/symptoms"
+        />
+
+    <item android:id="@+id/connection"
+        android:icon="@drawable/connection"
+        android:title="@string/list_of_connection"
+        />
+
+    <item android:id="@+id/alarm"
+        android:icon="@drawable/alarm"
+        android:title="@string/alarm"
+        />
+
+    <item android:id="@+id/diet"
+        android:icon="@drawable/diet"
+        android:title="@string/diet"
+        />
+
+    <item android:id="@+id/seizure"
+        android:icon="@drawable/seizure"
+        android:title="@string/seizure_information"
+        />
+
+    <item android:id="@+id/question"
+        android:icon="@drawable/question"
+        android:title="@string/frequent_question"
+        />
+
+    <item android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="@string/logout"
+        />
+
+</menu>

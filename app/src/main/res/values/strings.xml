@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">FinalSeizureYarab</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="don_t_have_account">Don\'t Have account</string>
+    <string name="seizure_history">Seizure History</string>
+    <string name="my_profile">My Profile</string>
+    <string name="medical_record">Medical Record</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="list_of_connection">List of connection</string>
+    <string name="alarm">Alarm</string>
+    <string name="diet">Diet</string>
+    <string name="frequent_question">Frequent question</string>
+    <string name="logout">Logout</string>
+    <string name="seizure_information">Seizure Information</string>
+    <string name="record_emg">Record EMG</string>
+    <string name="upload_mri">Upload MRI</string>
+    <string name="upload_eeg">Upload EEG</string>
+    <string name="reset_your_password">Reset Your password </string>
+    <string name="please_complete_steps_to_change_password">Please complete steps to change password</string>
+    <string name="submit">Submit</string>
+    <string name="notes">Notes:</string>
+    <string name="your_password_must_start_with_capital_character_upper_and_lower_latters_must_contain_numbers_and_special_character"><![CDATA[Your password must start with capital Character & Upper and lower latters & must contain numbers and special character]]></string>
+    <string name="login">Login</string>
+    <string name="first_name">First Name :     </string>
+    <string name="last_name">Last name :      </string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="registration">Registration</string>
+    <string name="fighters">Fighters</string>
+    <string name="have_account">Have account?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_new_password">Enter new Password</string>
+    <string name="eeg_signal_upload">EEG Signal Upload</string>
+    <string name="upload_signal">Upload Signal</string>
+    <string name="mri_image">MRI Image</string>
+    <string name="image_upload">Image Upload</string>
+    <string name="save">Save</string>
+    <string name="initial_diagnosis">Initial Diagnosis</string>
+    <string name="eeg_signals">EEG Signals</string>
+    <string name="eeg_signal_features">EEG Signal Features</string>
+    <string name="sample_rate">Sample Rate</string>
+    <string name="mri_features">MRI Features</string>
+    <string name="listOfConnection">List of Connection</string>
+    <string name="historyOfConnection">History of Connection</string>
+    <string name="requestOfConnection">Request of Connection</string>
+    <string name="doctor_name">Doctor\'s name</string>
+    <string name="time">Time</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="treatment_name">Treatment Name</string>
+
+    <string name="Back">Back</string>
+    <string name="profile_image">personal image</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="Date">DD/MM/YYYY</string>
+    <string name="Symptoms">Symptoms</string>
+    <string name="temporary">Temporary confusion</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="maybe">Maybe</string>
+    <string name="staring">Staring spell</string>
+    <string name="stiff">Stiff muscles</string>
+    <string name="uncontrollable">Uncontrollable movements</string>
+    <string name="unconsciousness">Loss of consciousness</string>
+    <string name="psychological">Psychological symptoms</string>
+    <string name="ID">ID</string>
+    <string name="BirthDate">BirthDate</string>
+    <string name="gender">Gender</string>
+    <string name="update">Update</string>
+    <string name="national_id">National ID</string>
+    <string name="saveEEg">Save EEG</string>
+    <color name="hint">#BC000000</color>
+    <string name="frequent">Frequent questions</string>
+    <string name="intro">Introduction</string>
+    <string name="introduction">
+        using application you can record EMG signal and uploading MRI and EEG signal to help us to
+        detect and monitoring seizure in addition to some future such as manage time of medicine ,
+        know information about seizure and so on
+    </string>
+    <string name="howToRecord">How to record EMG signal ?</string>
+    <string name="connect">1-Connect EMG sensor</string>
+    <string name="startRecord">2-Click to this Button to start of record signal</string>
+    <string name="saveEMG">3-Using this Buttons for saving EMG Signal , show initial diagnosis and
+        start to record another EMG signal</string>
+    <string name="howToUpload">How to upload MRI ?</string>
+    <string name="uploadMRI">1-Click to this button for upload MRI</string>
+    <string name="uploadImage">2-Choose file of MRI and click to Upload button </string>
+    <string name="saveMRI">3-Using this Buttons for saving MRI , show initial diagnosis and
+        allow to upload another MRI</string>
+    <string name="howToRecor">How to upload EEG signal ?</string>
+    <string name="uploadEEG">1-Click to this button for upload EEG signal</string>
+    <string name="uploadImageEEG">2-Choose file of EEG signal and click to Upload button</string>
+    <string name="SaveEEg">3-Using this Buttons for saving EEG signal , show initial diagnosis and
+        allow to upload another EEG signal</string>
+    <string name="emg_signal">EMG Signal</string>
+    <string name="new_record">New Record</string>
+    <string name="upload_emg">Upload EMG</string>
+    <string name="list_of_request_connection">List of Request Connection</string>
+    <string name="list_of_history_connection">List of History Connection</string>
+    <string name="name">Name</string>
+    <string name="enter_yes_or_no">Enter Yes or No</string>
+    <string name="emg_signal_upload">Upload EMG Signal</string>
+
+    <string name="SaveEEg1">3-Using this Buttons for saving EEG signal , show initial diagnosis and
+        allow to upload another EEG signal</string>
+    <string name="eeg_classification">EEG Classification</string>
+    <string name="classification">Classification</string>
+    <string name="probability_of_seizure">Probability of seizure</string>
+    <string name="probability_of_non_seizure">Probability of non seizure</string>
+    <string name="save_eeg">Save EEg</string>
+    <string name="save_eeg1">Save EEG</string>
+    <string name="type_of_signal">Type of signal</string>
+</resources>
